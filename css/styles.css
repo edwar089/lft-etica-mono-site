@@ -1,0 +1,368 @@
+html {
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom, black,white), radial-gradient(at top center, black,white);
+    margin:60px;
+    
+}
+
+@media screen and (min-width:1440px){
+   
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 10px;
+       
+        
+        
+    
+    }
+    .container-2 {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        grid-gap: 50px;
+        text-align: center;
+    
+    }
+
+    .container-3 {
+        display: grid;
+        grid-template-columns:250px 250px 250px 250px 250px 250px;
+        grid-template-rows: 100px;
+        text-align: center;
+        position:fixed;
+        
+
+    }
+
+    
+    .container-4 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 40px;
+        
+    
+    }
+    
+    .item {
+        border: 2px solid #44d62c;
+        padding: 20px;
+        
+    }
+
+}
+
+
+
+
+
+/* nav bar */
+
+#nav1 {
+    
+    left: -310px; 
+    transition: 0.3s;
+    padding: 15px; 
+    width: 350px;
+    text-decoration: none; 
+    font-size: 20px; 
+    color:black; 
+    border-radius: 0 5px 5px 0; 
+    position: fixed;
+    z-index: 1;
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-top: 0;
+    text-wrap: nowrap;
+    
+}
+#nav1 a{
+    
+    left: -310px; 
+    transition: 0.3s;
+    padding: 15px; 
+    width: 350px;
+    text-decoration: none; 
+    font-size: 20px; 
+    color:black; 
+    border-radius: 0 5px 5px 0; 
+    position: fixed;
+    z-index: 1;
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    background-color: #44d62c;
+    opacity: 90%;
+    margin-top: 0;
+    text-wrap: nowrap;
+    
+}
+
+#nav1 a{
+    transition: color 1s;
+
+}
+
+#nav1 a:hover {
+    left: 0; 
+    background-color: black;
+    color:#44d62c;
+}
+
+li{
+    height:60px;
+}
+
+/* title */
+
+.title{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50pt;
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    z-index: -1;
+    display: block;
+    text-shadow: 0 0 10px;
+     
+}
+
+.small-title{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40pt;
+    color: #44d62c;
+    text-align: center;
+    margin-top: 0;
+    z-index: -1;
+    display: block;
+    text-shadow: 0 0 10px;
+    overflow-x: hidden;
+    transform: translate(-40%);
+    width: 500%;
+
+}
+
+
+/* section titles */
+.section{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #44d62c;
+    font-size: 20pt;
+    text-shadow: 0 0 10px #44d62c;
+    
+    
+}
+
+/* about section */
+
+.about-body{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    
+    
+}
+
+/* alphabet section */
+
+.alphabet{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt ;
+    color: black;
+    
+}
+
+.alphabet{
+    transition: color 5s;
+    transition: text-shadow 2s ease-out;
+}
+
+.alphabet :hover{
+    text-shadow: 0 0 10px;
+    color:#44d62c; 
+   
+}
+
+/* different paragraphs */
+
+.p-one{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 8pt;
+    line-height: 1.5;
+
+    
+}
+
+.p-two{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12pt;
+    line-height: 2;
+    background: #44d62c;
+    
+}
+
+.p-three{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 18pt;
+    line-height: 2;
+   
+    
+}
+
+/* word display */
+
+.word-1{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 0 0 10px;
+    font-size:200pt;
+    color: white;
+    
+    
+}
+
+.word-2{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150pt;
+    text-shadow: 0 0 10px;
+    transform: rotate(55deg);
+    
+}
+
+.word-3{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:200pt ;
+    color:#44d62c;
+    text-shadow: 0 0 30px;
+    transform: rotate(200deg);
+
+}
+
+.word-4{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 250pt;
+    text-shadow: 0 0 50px;
+    color:white;
+    transform: rotate(30deg);
+    
+     
+}
+
+.word-5{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 100pt;
+    text-shadow: 0 0 20px;
+}
+
+/* experiments */
+
+.exp-1{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    transform: rotate(360deg);
+    
+    
+
+}
+
+.cls-1{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+    font-kerning: 10%;
+    fill: #44d62c;
+    text-shadow: 0 0 20px black;
+    
+}
+
+
+.exp-2{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50pt;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    text-shadow: 0 0 10px;
+    
+}
+.mini{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: 0 0 10px;
+    width: 115%;
+    transform: translate(-10%);
+    overflow-x: hidden;
+    z-index:auto;
+    position: absolute ;
+    top:7758px;
+    
+    
+}
+
+.exp-3{
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80pt;
+    text-shadow: 0 0 20px #44d62c;
+    transform: rotate(90deg) translate(10%);
+    width: -500%;
+    
+    
+}
+
+.panco{
+    color:#44d62c;
+    text-shadow: 0 0 20px black;
+
+}
